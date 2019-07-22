@@ -46,4 +46,10 @@ if favoriteFood == "cookie dough" {
 else if favoriteFood == "chocolate"{
     print("eat all the chocolate")
     }
-
+var github = " rocks "
+if github == " rocks " {
+    print("you did it")
+}
+else {
+    print(" try again")
+}
