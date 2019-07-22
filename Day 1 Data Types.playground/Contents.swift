@@ -53,3 +53,63 @@ if github == " rocks " {
 else {
     print(" try again")
 }
+
+
+func cereal() {
+    print("retrieve bowl")
+    print("open refrigerator")
+    print("take out milk carton and cereal box")
+    print("open milk carton")
+    print("pour cereal into bowl")
+    print("pour cereal into bowl")
+    print("retrieve spoon")
+    print("eat cereal with the spoon")
+}
+cereal()
+func cereal(numberOfCherrios : Int) {
+    print("There are \(numberOfCherrios) cherrios in the bowl")
+}
+cereal(numberOfCherrios : 4)
+
+func hello(trinity : String) {
+    print (" Hello \(trinity)")
+    }
+hello(trinity : "Wero")
+
+
+func myAge() -> Int {
+    return 18
+}
+print(myAge() + 10)
+
+
+func walkDog(numberOfDogs : Int) -> Int {
+let lengthOfWalk = numberOfDogs * 15
+return lengthOfWalk
+}
+let minutesToWalk = (walkDog(numberOfDogs : 3))
+print("Please walk the dogs. I will expect to see you complete that task in \(minutesToWalk) minutes!")
+
+//
+var arrayOfSyntax = [String]()
+var myFriends = ["doggo", "bestFriend", "me"]
+myFriends
+// doggo index = 0
+//bestFriend index = 1
+//me index = 3
+myFriends[0]
+myFriends[2] = "hamster"
+
+//
+
+
+var roleModels = ["chemTeacher", "bioTeacher", "bestFriend"]
+roleModels[1]
+
+roleModels[3] = "mathTeacher"
+roleModels[2] = "counsler"
+
+
+
+
+
