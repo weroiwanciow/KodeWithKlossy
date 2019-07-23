@@ -93,12 +93,18 @@ print("Please walk the dogs. I will expect to see you complete that task in \(mi
 //
 var arrayOfSyntax = [String]()
 var myFriends = ["doggo", "bestFriend", "me"]
+
 myFriends
 // doggo index = 0
 //bestFriend index = 1
 //me index = 3
 myFriends[0]
 myFriends[2] = "hamster"
+
+for friend in myFriends {
+    print("hello \(friend)!")
+}
+// day two note above
 
 //
 
@@ -109,7 +115,24 @@ roleModels[1]
 roleModels[3] = "mathTeacher"
 roleModels[2] = "counsler"
 
+func orderPizza(numberOfPeople : Int) {
+    let numberOfSlices = numberOfPeople * 2
+return numberOfSlices
+}
+let numberOfPeople = ( orderPizza(numberOfPeople : 5) )
+print("order \(numberOfSlices) please")
 
 
+//Creating a Dictionary:
 
+var someoneName = [
+    "amy" :"june 15",
+    "wero" : "september 3",
+    "dog" : "february 16"
+]
+print(someoneName["amy"])
+
+recipe["flour"] = "1 cup"
+print(recipe)
+//-> ["flour" : "1 cup ]
 
