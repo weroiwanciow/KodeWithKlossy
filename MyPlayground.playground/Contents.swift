@@ -1,104 +1,53 @@
-import UIKit
-
-var str = "Hello, playground"
-
-
-//Creating a Dictionary:
-
-var someoneName = [
-    "amy" :"june 15",
-    "wero" : "september 3",
-    "dog" : "february 16"
-]
-
-//prints as optional:
-print(someoneName["amy"])
-// prints as the actual thing:
-print(someoneName["amy"]!)
-
-
-//Removing data from dictionaries:
-print(someoneName["amy"]!)
-someoneName["amy"] = nil
 
 
 
-print(someoneName.keys)
+//Classes and Objects
+//init function and properties
 
 
-//10 members
-var famTree = [
-    "archie" : "bestFriend",
-    "julian" : "brother",
-    "dominick" : "younger brother",
-    "marzena" : "cousin",
-    "beata" : "aunt",
-    "anetta" : "mom",
-    "jadwiga" : "grandma",
-    "paulina" : "younger cousin",
-    "asza" : "family friend",
-    "janet" : "close friend"
-]
+//Class: the image that will create the object so like the blueprints
+//objects: created from the class
 
-print(famTree.keys)
-var myCloset = [
-    "shirts" : ["redShirt", "blueShirt", "greenShirt"],
-    "pants" : ["redPants", "bluePants", "greenPants"],
-    "dress" : ["redDress", "blueDress", "greenDress"]
-]
-print(myCloset.keys)
+//we can pass an agrument to create a class that changes the properties of an object
 
-print(Array(myCloset.keys))
+//classwork: make a list of charac. of scholars
+//-hair
+//-school
+//-age
+//-name
 
-print(myCloset["shirts"]!)
-//prints for that key
+//start with the keyword : class then open code block with a {
 
 
-                                        //Lecture: Loops
-
-//for-in-loops is a block that turns code a specific number of times
-
-    //example:
-var sponsors = ["adidas", "estee lauder", "weWork"]
-
-for sponsor in sponsors {
-    print("Thanks \(sponsor) for making KWK happen!")
-}
-
-    //example 2:
-var capitols = ["France" : "Paris" , "Cuba" : "Havana" , "Japan" : "Tokyo"]
-for pair in capitols {
-    print(pair)
-}
-//prints the key and its value so ex. France, value: "Paris"
-
-print(capitols.keys)
-//prints keys so: France,Cuba and Japan
-for (country, capitol) in capitols {
-    print("The capitol of \(country) is \(capitol).")
-}
-//prints the sentence so: The capitol of France is Paris.
-
-
-
-                                //Creating my own (array and dictionaries)
-
-var friends = ["Ava", "Sage", "Aimz"]
-for friendsName in friends {
-    print("Hello, \(friendsName)")
-}
-//prints Hello, Ava following with Sage and Aimz.
-
-
-    //Loops without collections
-for _ in 1...4 {
-    print("Hello")
+class Scholar {
+    //code goes here
+    var name = "alice"
+    var age = "18 "
+    var studying = ""
+    var grade = ""
+    
+    init(scholarGrade: String, scholarAge: String) {
+       grade = scholarGrade
+        age = scholarAge
+        
+  
     }
-//Prints Hello 4 times
+    func writeCode() {
+        print("\(name) is busy coding!")
+        print("\(age) year old \(name) is busy coding")
+    }
+    func writeCode() {
+    }
+var newScholar = Scholar(scholarGrade: "12", scholarAge: "18")
+print(newScholar.grade, newScholar.age)
+
+newScholar.writeCode()
 
 
-                    //Partner Challenge
-var animals = ["red panda", "penguin", "polar bear"]
-for index in 0..<animals.count {
-    print("I love " + animals[index])
-} 
+                                //actions
+
+//dynamic in lines: 30-31
+//
+
+//properties piece of info that we want to attach to each object made from a camp
+//in this example the object= scholar
