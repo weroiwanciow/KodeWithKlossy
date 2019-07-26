@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="sotryboard_practice_day_4" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gwF-yo-Ilq">
+                                <rect key="frame" x="80" y="104" width="249" height="35"/>
+                                <color key="backgroundColor" red="0.043954022228717804" green="0.3515169620513916" blue="0.8505016565322876" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="It's me, Mario!">
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <font key="NSFont" size="35" name="HoeflerText-Black"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="epj-L6-vEt">
+                                <rect key="frame" x="80" y="190" width="117" height="49.5"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Submit">
+                                            <attributes>
+                                                <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="32" name="Monaco"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="submitButtonTab:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zxc-Oz-Szq"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xhz-c8-eDs">
+                                <rect key="frame" x="232" y="568" width="97" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="mario" translatesAutoresizingMaskIntoConstraints="NO" id="dEq-Xf-UiF">
+                                <rect key="frame" x="89" y="276" width="240" height="185"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mario" translatesAutoresizingMaskIntoConstraints="NO" id="XkD-KN-E35">
+                                <rect key="frame" x="74" y="244" width="266" height="338"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.043954022228717804" green="0.3515169620513916" blue="0.8505016565322876" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="dEq-Xf-UiF" firstAttribute="top" secondItem="epj-L6-vEt" secondAttribute="bottom" constant="67.5" id="8wa-n7-zzp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xhz-c8-eDs" secondAttribute="trailing" constant="85" id="CMX-qw-Xka"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gwF-yo-Ilq" secondAttribute="trailing" constant="85" id="DY8-3c-Shh"/>
+                            <constraint firstItem="dEq-Xf-UiF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="89" id="Esr-bN-WOL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="epj-L6-vEt" secondAttribute="trailing" constant="217" id="SNj-0R-GTQ"/>
+                            <constraint firstItem="xhz-c8-eDs" firstAttribute="top" secondItem="dEq-Xf-UiF" secondAttribute="bottom" constant="-2000" id="SaH-w2-Mfr"/>
+                            <constraint firstItem="epj-L6-vEt" firstAttribute="top" secondItem="gwF-yo-Ilq" secondAttribute="bottom" constant="51" id="aTL-iq-19b"/>
+                            <constraint firstItem="gwF-yo-Ilq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="80" id="fl0-vN-BD2"/>
+                            <constraint firstItem="xhz-c8-eDs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="232" id="i4K-6j-Znt"/>
+                            <constraint firstItem="epj-L6-vEt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="80" id="lsi-Tm-Bj2"/>
+                            <constraint firstItem="xhz-c8-eDs" firstAttribute="top" secondItem="dEq-Xf-UiF" secondAttribute="bottom" constant="-2000" id="oK5-3r-gZG"/>
+                            <constraint firstItem="gwF-yo-Ilq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="p8F-kB-xl6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dEq-Xf-UiF" secondAttribute="trailing" constant="85" id="zaL-cO-eHh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="XkD-KN-E35"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="Textfield" destination="xhz-c8-eDs" id="z3d-bg-ZpY"/>
+                        <outlet property="pagetitle" destination="gwF-yo-Ilq" id="2R0-je-iXW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="134.78260869565219" y="114.50892857142857"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="mario" width="1812" height="2261"/>
+    </resources>
+</document>

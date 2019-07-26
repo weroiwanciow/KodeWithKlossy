@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18553C1F22E7A1E0001FEC61 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18553C1E22E7A1E0001FEC61 /* main.swift */; };
-		18553C2622E7A259001FEC61 /* Scholar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18553C2522E7A259001FEC61 /* Scholar.swift */; };
+		18D934A622E895D3005ADA42 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D934A522E895D3005ADA42 /* main.swift */; };
+		18D934AD22E89601005ADA42 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D934AC22E89601005ADA42 /* Dog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		18553C1922E7A1E0001FEC61 /* CopyFiles */ = {
+		18D934A022E895D3005ADA42 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,14 +24,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		18553C1B22E7A1E0001FEC61 /* Classes and Objects */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Classes and Objects"; sourceTree = BUILT_PRODUCTS_DIR; };
-		18553C1E22E7A1E0001FEC61 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		18553C2522E7A259001FEC61 /* Scholar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scholar.swift; sourceTree = "<group>"; };
-		18D9348222E88F33005ADA42 /* Classes and Objects */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Classes and Objects"; sourceTree = "<group>"; };
+		18D934A222E895D3005ADA42 /* dog.swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dog.swift; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D934A522E895D3005ADA42 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		18D934AC22E89601005ADA42 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		18553C1822E7A1E0001FEC61 /* Frameworks */ = {
+		18D9349F22E895D3005ADA42 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,98 +40,97 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		18553C1222E7A1DF001FEC61 = {
+		18D9349922E895D3005ADA42 = {
 			isa = PBXGroup;
 			children = (
-				18553C1D22E7A1E0001FEC61 /* Classes and Objects */,
-				18553C1C22E7A1E0001FEC61 /* Products */,
+				18D934A422E895D3005ADA42 /* dog.swift */,
+				18D934A322E895D3005ADA42 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		18553C1C22E7A1E0001FEC61 /* Products */ = {
+		18D934A322E895D3005ADA42 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18553C1B22E7A1E0001FEC61 /* Classes and Objects */,
+				18D934A222E895D3005ADA42 /* dog.swift */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		18553C1D22E7A1E0001FEC61 /* Classes and Objects */ = {
+		18D934A422E895D3005ADA42 /* dog.swift */ = {
 			isa = PBXGroup;
 			children = (
-				18553C1E22E7A1E0001FEC61 /* main.swift */,
-				18553C2522E7A259001FEC61 /* Scholar.swift */,
-				18D9348222E88F33005ADA42 /* Classes and Objects */,
+				18D934A522E895D3005ADA42 /* main.swift */,
+				18D934AC22E89601005ADA42 /* Dog.swift */,
 			);
-			path = "Classes and Objects";
+			path = dog.swift;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		18553C1A22E7A1E0001FEC61 /* Classes and Objects */ = {
+		18D934A122E895D3005ADA42 /* dog.swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18553C2222E7A1E0001FEC61 /* Build configuration list for PBXNativeTarget "Classes and Objects" */;
+			buildConfigurationList = 18D934A922E895D3005ADA42 /* Build configuration list for PBXNativeTarget "dog.swift" */;
 			buildPhases = (
-				18553C1722E7A1E0001FEC61 /* Sources */,
-				18553C1822E7A1E0001FEC61 /* Frameworks */,
-				18553C1922E7A1E0001FEC61 /* CopyFiles */,
+				18D9349E22E895D3005ADA42 /* Sources */,
+				18D9349F22E895D3005ADA42 /* Frameworks */,
+				18D934A022E895D3005ADA42 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Classes and Objects";
-			productName = "Classes and Objects";
-			productReference = 18553C1B22E7A1E0001FEC61 /* Classes and Objects */;
+			name = dog.swift;
+			productName = dog.swift;
+			productReference = 18D934A222E895D3005ADA42 /* dog.swift */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		18553C1322E7A1E0001FEC61 /* Project object */ = {
+		18D9349A22E895D3005ADA42 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = Apple;
 				TargetAttributes = {
-					18553C1A22E7A1E0001FEC61 = {
+					18D934A122E895D3005ADA42 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 18553C1622E7A1E0001FEC61 /* Build configuration list for PBXProject "Classes and Objects" */;
+			buildConfigurationList = 18D9349D22E895D3005ADA42 /* Build configuration list for PBXProject "dog.swift" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 18553C1222E7A1DF001FEC61;
-			productRefGroup = 18553C1C22E7A1E0001FEC61 /* Products */;
+			mainGroup = 18D9349922E895D3005ADA42;
+			productRefGroup = 18D934A322E895D3005ADA42 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				18553C1A22E7A1E0001FEC61 /* Classes and Objects */,
+				18D934A122E895D3005ADA42 /* dog.swift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		18553C1722E7A1E0001FEC61 /* Sources */ = {
+		18D9349E22E895D3005ADA42 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18553C2622E7A259001FEC61 /* Scholar.swift in Sources */,
-				18553C1F22E7A1E0001FEC61 /* main.swift in Sources */,
+				18D934AD22E89601005ADA42 /* Dog.swift in Sources */,
+				18D934A622E895D3005ADA42 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		18553C2022E7A1E0001FEC61 /* Debug */ = {
+		18D934A722E895D3005ADA42 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -193,7 +191,7 @@
 			};
 			name = Debug;
 		};
-		18553C2122E7A1E0001FEC61 /* Release */ = {
+		18D934A822E895D3005ADA42 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -247,7 +245,7 @@
 			};
 			name = Release;
 		};
-		18553C2322E7A1E0001FEC61 /* Debug */ = {
+		18D934AA22E895D3005ADA42 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -256,7 +254,7 @@
 			};
 			name = Debug;
 		};
-		18553C2422E7A1E0001FEC61 /* Release */ = {
+		18D934AB22E895D3005ADA42 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -268,25 +266,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18553C1622E7A1E0001FEC61 /* Build configuration list for PBXProject "Classes and Objects" */ = {
+		18D9349D22E895D3005ADA42 /* Build configuration list for PBXProject "dog.swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18553C2022E7A1E0001FEC61 /* Debug */,
-				18553C2122E7A1E0001FEC61 /* Release */,
+				18D934A722E895D3005ADA42 /* Debug */,
+				18D934A822E895D3005ADA42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18553C2222E7A1E0001FEC61 /* Build configuration list for PBXNativeTarget "Classes and Objects" */ = {
+		18D934A922E895D3005ADA42 /* Build configuration list for PBXNativeTarget "dog.swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18553C2322E7A1E0001FEC61 /* Debug */,
-				18553C2422E7A1E0001FEC61 /* Release */,
+				18D934AA22E895D3005ADA42 /* Debug */,
+				18D934AB22E895D3005ADA42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 18553C1322E7A1E0001FEC61 /* Project object */;
+	rootObject = 18D9349A22E895D3005ADA42 /* Project object */;
 }
